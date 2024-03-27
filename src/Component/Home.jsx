@@ -15,7 +15,7 @@ let click = () =>{
 
   return (
     <>
-<div className="bg-gray-200 border-2 border-black w-fit ml-52 mt-8 mb-2 rounded-sm overflow-hidden ">
+<div className="bg-gray-200 border-2 border-black w-fit sm:ml-72 sm:mt-8 mt-20  rounded-lg mx-10 my-2 sm:rounded-sm overflow-hidden ">
   <img className=' hover:-translate-y-1 hover:scale-110 duration-300 hover:overflow-hidden hover:rotate-0.5' src="https://images.unsplash.com/photo-1682687220923-c58b9a4592ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D" alt="" />
  
  <div className="flex justify-evenly  mt-3 mb-2">
@@ -25,7 +25,7 @@ let click = () =>{
   
  </div>
 </div>
- <p className="ml-72">Your pic got {likeInc}  likes</p>
+ <p className=" text-center">Your pic got {likeInc}  likes</p>
 
     </>
   )
